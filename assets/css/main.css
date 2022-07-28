@@ -2594,7 +2594,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/background3.jpg");
+		background-image: url("images/overlay.png"), url("../../images/background9.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2605,7 +2605,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 26%;
+		width: 33.3333%;
 	}
 
 		#header > * {
@@ -2761,19 +2761,19 @@ input, select, textarea {
 	}
 
 	.fa-lightbulb {
-		color: #9e30ff;
+		color: #c3e895;
 	}
 
 	.fa-project-diagram {
-		color: #3422ac;
+		color: #8addaa;
 	}
 
 	.fa-code {
-		color: #221659;
+		color: #6bd4c8;
 	}
 
 	.fa-rocket {
-		color: #7c14a4;
+		color: #57aed3;
 	}
 
 	.content h3 {
@@ -3261,6 +3261,27 @@ input, select, textarea {
 					margin: 2.25em 0 0 0;
 					padding: 2.25em 0 0 0;
 				}
+
+
+			.features {
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.features article:first-child {
+				margin-left: 6em;
+				margin-top: 2em;
+				transform: scale(1.1);
+			}
+			
+			.features article {
+				width: 80%;
+			}
+
+			.major h2 {
+				text-align: center;
+			}
 
 		/* Poptrox */
 
